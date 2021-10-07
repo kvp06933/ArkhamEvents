@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #001e43;
+    --secondary-color:#ff993b;
+    --dark-color:#300000;
+    --white-color: #dfe3e4;
+}
+body{
+    color: var(--dark-color);
+}
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+#content{
+    min-height: 90vh;
+}
+nav{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+footer{
+    
+    background-color: var(--dark-color);
+}
+.sticky-footer {
+
+    position: fixed;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+}
+footer .social>a  {
+    color: var(--white-color);
+}
+footer .social>a:hover  {
+    color: var(--secondary-color);
+}
+.fa-js-square{
+    color: rgb(236, 236, 79);
+}
+.fa-bootstrap{
+    color: rgb(161, 62, 161);
+}
+.fa-html5{
+    color: rgb(247, 136, 10);
+}
+.fa-css3-alt{
+    color: rgb(9, 112, 247);
+}
+.fa-li{
+    color:var(--dark-color);
+}
